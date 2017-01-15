@@ -1,0 +1,30 @@
+html, body, header.site-header, main, .site-section, .section-container {
+  width: 100%;
+}
+
+html, body, main {
+  height: 100%;
+}
+
+header.site-header {
+  height: 75px;
+  position: fixed;
+  z-index: 1;
+  /*background-color: rgba(255, 255, 255, 1);*/
+}
+
+.site-section {
+  min-height: 100%;
+  position: relative;
+}
+
+.site-section:nth-child(2n) {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.site-section:nth-child(2n) h1{
+  color: rgba(255, 255, 255, 1);
+}
+.section-container {
+
+}

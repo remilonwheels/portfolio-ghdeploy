@@ -1,0 +1,74 @@
+[
+  {
+    "projectName":"About Me",
+    "projectSection":"201",
+    "dateBegin":"12-19-16",
+    "dateEnd":"12-23-16",
+    "projectIMG":"assets/raw/about-me.png",
+    "titleDescription":"Week 1 Project",
+    "description":"Basic HTML/CSS Structure, JS control structures",
+    "ghRepoName":"about_me",
+    "siteLink":"remilonwheels.github.io/about_me",
+    "codeScore":[1, 1, 1]
+  },
+  {
+    "projectName":"Salmon Cookies",
+    "projectSection":"201",
+    "dateBegin":"12-19-16",
+    "dateEnd":"12-23-16",
+    "projectIMG":"assets/raw/cookie-stand.png",
+    "titleDescription":"Week 2 Project",
+    "description":"Lorem ipsum dolor sit amet",
+    "ghRepoName":"cookie-stand",
+    "siteLink":"remilonwheels.github.io/cookie-stand",
+    "codeScore":[2, 2, 2]
+  },
+  {
+    "projectName":"Bus Mall",
+    "projectSection":"201",
+    "dateBegin":"12-19-16",
+    "dateEnd":"12-23-16",
+    "projectIMG":"assets/raw/bus-mall.png",
+    "titleDescription":"Week 3 Project",
+    "description":"Lorem ipsum dolor sit amet",
+    "ghRepoName":"bus-mall",
+    "siteLink":"remilonwheels.github.io/bus-mall",
+    "codeScore":[2, 3, 3]
+  },
+  {
+    "projectName":"Find Sam",
+    "projectSection":"201",
+    "dateBegin":"12-19-16",
+    "dateEnd":"12-23-16",
+    "projectIMG":"assets/raw/find-sam.png",
+    "titleDescription":"Week 4 Group Project",
+    "description":"Lorem ipsum dolor sit amet",
+    "ghRepoName":"find-sam",
+    "siteLink":"remilonwheels.github.io/find-sam",
+    "codeScore":[2, 3, 4]
+  },
+  {
+    "projectName":"Test Project",
+    "projectSection":"301",
+    "dateBegin":"12-19-16",
+    "dateEnd":"12-23-16",
+    "projectIMG":"http://placehold.it/1600x900",
+    "titleDescription":"Test Project",
+    "description":"Lorem ipsum dolor sit amet",
+    "ghRepoName":"find-sam",
+    "siteLink":"remilonwheels.github.io/find-sam",
+    "codeScore":[2, 4, 5]
+  },
+  {
+    "projectName":"Test Project 2",
+    "projectSection":"Personal",
+    "dateBegin":"12-19-16",
+    "dateEnd":"12-23-16",
+    "projectIMG":"http://placehold.it/1600x900",
+    "titleDescription":"Test Project",
+    "description":"Lorem ipsum dolor sit amet",
+    "ghRepoName":"find-sam",
+    "siteLink":"remilonwheels.github.io/find-sam",
+    "codeScore":[2, 4, 6]
+  }
+]

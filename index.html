@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>AYO.imRemil</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Bungee|Bungee+Hairline|Bungee+Inline|Bungee+Outline|Bungee+Shade" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="vendor/styles/reset.css">
+    <link rel="stylesheet" type="text/css" href="styles/base.css">
+    <link rel="stylesheet" type="text/css" href="styles/layout.css">
+    <link rel="stylesheet" type="text/css" href="styles/module.css">
+    <link rel="stylesheet" type="text/css" href="vendor/styles/jquery.bxslider.css">
+    <script src="https://use.fontawesome.com/a045a104f0.js"></script>
+    <script src="vendor/scripts/jquery-3.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.bundle.min.js"></script>
+    <script src="vendor/scripts/jquery.bxslider.min.js"></script>
+
+    <!-- handlebar templates -->
+    <script id="project-template" type="text/x-handlebars-template">
+      <article class="project" data-project="{{projectName}}" data-section="{{projectSection}}">
+        <h3 class="center-text">{{projectName}} [{{projectSection}}]:{{titleDescription}}</h3>
+        <div class="horizontal-center">
+          <img src="{{projectIMG}}">
+        </div>
+        <div class="project-anchor"><a target="_blank" href="http://{{siteLink}}"><button>WEBSITE</button></a></div>
+        <div class="project-anchor"><a target="_blank" href="https://github.com/remilonwheels/{{ghRepoName}}"><button>CODE</button></a></div>
+        <p>{{description}}</p>
+      </article>
+    </script>
+
+    <script id="project-by-section-template" type="text/x-handlebars-template">
+      <article class="project-by-section">
+        <header><div>{{projectSection}}</h3></header>
+        <section>{{{projectList}}}</section>
+      </article>
+    </script>
+
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="primary-nav">
+        <div id="menu-div" class="is-nav-closed"><i class="fa fa-bars" aria-hidden="true"></i></div>
+        <ul>
+          <li><a href="#section-home">Home</a></li>
+          <li><a href="#section-me">Me</a></li>
+          <li><a href="#section-portfolio">Work</a></li>
+          <li><a href="#section-contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="section-home" class="site-section">
+        <div class="section-container">
+          <div class='space-div'></div>
+          <div class="ayo-container center-text">
+            <div class="ayo-container-line"><div class="ayo">AYO</div><div class="ayo2">.IM</div></div>
+            <div class="ayo3 ayo-container-line">REMIL</div>
+          </div>
+          <div class="home-img horizontal-center">
+            <img src="assets/portfolio-crop.png">
+          </div>
+          <div class="home-statement">
+            <h2 class="center-text">This is my</h2>
+            <h2 class="center-text">Pursuit of Code</h2>
+          </div>
+
+        </div>
+      </section>
+      <section id="section-me" class="site-section">
+        <div class="section-container">
+          <h1>About Me</h1>
+          <div id="me">
+            <p>var remi = {</p>
+            <p class="indent1">fullName: 'Remil Marzan',</p>
+            <p class="indent1">faveFood: ['pizza', 'chicken adobo']</p>
+            <p class="indent1">//finish l8r</p>
+            <p>};</p>
+          </div>
+          <canvas id="code-score-chart" width="400px" height="400px"></canvas>
+        </div>
+      </section>
+      <section id="section-portfolio" class="site-section">
+      <div class="section-container">
+        <h1>Work</h1>
+        <div id="project-by-section" class="project-by-section">
+        <h2 class="center-text bold">Select Project</h2>
+        </div>
+        <!-- handlebar project-template placeholder -->
+        <div id="projects" class="projects-container"></div>
+      </div>
+    </section>
+    <section id="section-contact" class="site-section">
+    <div class="section-container">
+      <h1>Contact</h1>
+      <div class="space-div"></div>
+      <a href="https://github.com/remilonwheels" class="contact-link"><div><i class="fa fa-github-square fa-5x" aria-hidden="true"></i><span class="text-right">Github</span></div></a>
+      <a href="https://www.linkedin.com/in/remil-marzan-3827a437" class="contact-link"><div><i class="fa fa-linkedin-square fa-5x" aria-hidden="true"></i><span class="text-right">Linkedin</span></div></a>
+    </div>
+  </section>
+    </main>
+    <script src="vendor/scripts/handlebars-v4.0.5.js"></script>
+    <script src="scripts/project.js"></script>
+    <script src="scripts/app.js"></script>
+  </body>
+</html>
