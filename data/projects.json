@@ -46,29 +46,5 @@
     "ghRepoName":"find-sam",
     "siteLink":"remilonwheels.github.io/find-sam",
     "codeScore":[2, 3, 4]
-  },
-  {
-    "projectName":"Test Project",
-    "projectSection":"301",
-    "dateBegin":"12-19-16",
-    "dateEnd":"12-23-16",
-    "projectIMG":"https://placehold.it/1600x900",
-    "titleDescription":"Test Project",
-    "description":"Lorem ipsum dolor sit amet",
-    "ghRepoName":"find-sam",
-    "siteLink":"remilonwheels.github.io/find-sam",
-    "codeScore":[2, 4, 5]
-  },
-  {
-    "projectName":"Test Project 2",
-    "projectSection":"Personal",
-    "dateBegin":"12-19-16",
-    "dateEnd":"12-23-16",
-    "projectIMG":"https://placehold.it/1600x900",
-    "titleDescription":"Test Project",
-    "description":"Lorem ipsum dolor sit amet",
-    "ghRepoName":"find-sam",
-    "siteLink":"remilonwheels.github.io/find-sam",
-    "codeScore":[2, 4, 6]
   }
 ]
