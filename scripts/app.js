@@ -118,7 +118,7 @@
   app.loadPage = () => {
     Project.projectsProcessed.forEach( project => app.renderTemplate(project, '#project-template', '#projects'));
     app.createProjectSections();
-    app.renderCodeChart();
+    // app.renderCodeChart();
     app.handleNavToggle();
     app.handleNavClick();
     app.handleProjectClick();
